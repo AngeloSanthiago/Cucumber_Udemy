@@ -26,6 +26,7 @@ public class AprenderCucumber {
 	}
 	@Before(order=1)
 	public void pegaInformacoesScenario(Scenario cenario) {
+		
 		System.out.println( getClass().getName() +": "+ cenario.getId());
 		
 	}
