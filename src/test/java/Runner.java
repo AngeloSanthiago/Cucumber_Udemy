@@ -8,7 +8,9 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		plugin = "pretty",
 		monochrome = true,
-		snippets = SnippetType.CAMELCASE
+		snippets = SnippetType.CAMELCASE,
+		dryRun = false,
+		strict = false
 		)
 public class Runner {
 

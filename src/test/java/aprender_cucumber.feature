@@ -8,6 +8,7 @@ Cenário: Deve executar especificação
   Dado que criei o arquivo corretamente
   Quando executá-lo
   Entao a especificação deve finalizar com sucesso
+  Entao fecha a aplicação
   
 # Os cinco Estatos de execução do Cucumber: 
 # Passou(Passed) - Executou com sucesso;

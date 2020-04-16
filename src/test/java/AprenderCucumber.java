@@ -4,6 +4,20 @@ import cucumber.api.java.pt.Então;
 import cucumber.api.java.pt.Quando;
 
 public class AprenderCucumber {
+	
+	@Dado("^que criei o arquivo corretamente$")
+	public void queCrieiOArquivoCorretamente() throws Throwable {
+		System.out.println("Qualquer coisa");
+	}
+
+	@Quando("^executá-lo$")
+	public void executáLo() throws Throwable {
+	}
+
+	@Então("^a especificação deve finalizar com sucesso$")
+	public void aEspecificaçãoDeveFinalizarComSucesso() throws Throwable {
+	}
+	
 //	@Dado("^que criei o arquivo corretamente$")
 //	public void que_criei_o_arquivo_corretamente() throws Throwable {
 ////	    System.out.println("Executou passo criei arquivo");
