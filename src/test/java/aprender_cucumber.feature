@@ -8,8 +8,11 @@ Cenário: Deve executar especificação
   Dado que criei o arquivo corretamente
   Quando executá-lo
   Entao a especificação deve finalizar com sucesso
-  Entao fecha a aplicação
   
+Cenário: Deve incrementar contador
+	Dado que o valor o valor do contador é 15
+	Quando eu incrementar em 5
+	Então o valor do contador será 18  
 # Os cinco Estatos de execução do Cucumber: 
 # Passou(Passed) - Executou com sucesso;
 # Falhou(Failed) - Lançou uma excessão Java;
